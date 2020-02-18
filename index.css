@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    background-color: #E01041;
+    flex:3;
+    flex-wrap: wrap;
+    width: 70vw;
+
+}
+
+.disc{
+    width: 500px;
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.album {
+    height: 300px;
+    margin: 20px;
+}
+
+.list{
+    flex:2;
+    display:flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    min-width: 300px;
+}
+
+.track {
+    display: flex;
+    flex-direction: column;
+}
+
+.line {
+    border-bottom: 1px solid #1B1B1B;
+    min-width: 300px;
+}
+.number {
+    font-weight: bold;
+    color: #F4DEE0;
+    font-size: 1.5em;
+}
+.title {
+    color: #F4DEE0;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
